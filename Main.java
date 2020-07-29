@@ -12,10 +12,10 @@ public class Main
 	{
 		Scanner sc= new Scanner(System.in);
 		int month,year,day;
-		System.out.println("month:");
-		month=sc.nextInt();
 		System.out.println("day:");
 		day=sc.nextInt();
+		System.out.println("month:");
+		month=sc.nextInt();
 		System.out.println("year:");
 		year=sc.nextInt();
 		sc.close();
