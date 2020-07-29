@@ -42,7 +42,7 @@ class Mainy {
 	 System.out.print("Enter the  string to search : ");  
      String pat= sc.nextLine();      
        int k= countFreq(pat, txt);   
-       System.out.print("occurences =");
+       System.out.print("occurences =");  //count occurrence
        System.out.print(k); 
        if(k==0)
        System.out.print("\nsubstring not present");
